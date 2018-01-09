@@ -1,0 +1,143 @@
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: 1s;
+
+}
+a:hover{
+  text-decoration: none;
+  color:#696969;
+  transition: 1s;
+}
+li{
+  list-style: none;
+  font-size: 1em;
+}
+
+.navbar-default
+{
+  background-color:#000;
+
+}
+.navbar-brand
+{
+  color:white !important;
+  font-size: 2em;
+  margin-left: 0px !important;
+
+}
+.dropdown-toggle
+{
+  color:white !important;
+}
+
+.menu-lista{
+  color:white !important;
+}
+
+.footer{
+    width: 100%;
+  margin-top: 10px;
+  background-color: #000;
+  color: #fff;
+
+}
+.bottom-footer{
+  border-top: 1px solid #b2b2b2;
+  margin-top: 10px;
+  padding-top: 10px;
+
+}
+
+.copyright
+{
+  font-size: 0.8em !important;
+}
+
+/*
+carrinho de compra icon
+*/
+
+.item-carrinho
+{
+  text-align: center;
+  width: 40px;
+  height: 25px;
+  float: right;
+  margin-left: 10px;
+  background-color: #fff;
+  color:#000;
+}
+.cart-icon{
+  color:#fff;
+}
+
+.content_produto{
+  margin-top:100px;
+}
+
+/*painel adicionar produto*/
+
+
+/*file input*/
+input[type="file"]::-webkit-file-upload-button{
+  margin-top:25px;
+  padding:8px 10px;
+  color:#fff;
+  background-color: #34495e;
+  border:none;
+  font-family:'Monteserrat',sans-serif;
+  font-size:1em;
+  border-radius: 5px;
+}
+
+
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+
+.title-produto{
+  margin-top: 10px;
+}
